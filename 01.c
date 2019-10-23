@@ -14,6 +14,7 @@ main(){
 		if(a[i]<0)
 		nsum=nsum+a[i];
 	}
+	printf("\n");
 	printf("\nSum of positive elements is : %d,psum");
 	printf("\nSum of negative elements is : %d,nsum");
 int ave=(psum+nsum)/n; 
